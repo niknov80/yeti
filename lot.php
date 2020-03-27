@@ -1,6 +1,7 @@
 <?
-require_once('functions.php');
-require_once('lotsdata.php');
+require_once('./functions.php');
+require_once('./lotsdata.php');
+
 
 $lot = null;
 
@@ -33,5 +34,6 @@ $page_layout = include_template('templates/layout.php', [
     'is_auth' => $is_auth,
     'categories' => $categories,
     'page_content' => $page_content]);
+
   
 print ($page_layout);

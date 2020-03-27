@@ -1,6 +1,6 @@
 <?php
-require_once('functions.php');
-require_once('lotsdata.php');
+require_once('./functions.php');
+require_once('./lotsdata.php');
 
 $is_auth = (bool) rand(0, 1);
 
